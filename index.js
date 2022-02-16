@@ -3,9 +3,9 @@ var i=0,score=0,count=0,level=1;
 
 var userName=readlineSync.question("What is your Name\n")
 console.log("Hi "+"[ "+userName+" ]"+" Welcome to the Game of How well do you know Aravind");
-console.log("==============================");
+console.log("------------------------------");
 console.log("If you get a score of 5, you will be considered as Aravind's Best Friend and will be taken to the next level of the game");
-console.log("==============================");
+console.log("------------------------------");
 
 var delayVariable=readlineSync.question("Respond yes to start the game \n");
 
@@ -110,7 +110,7 @@ for(i=0;i<questions.length;i++)
       if(i<questions.length-1)
       {
       console.log("You entered a different answer so please continue with the game and answer correctly next time :p");
-      console.log("==================");
+      console.log("------------------------");
       }
       else
       break;
